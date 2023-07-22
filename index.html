@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <section class="w-100">
-        <header>
+    <section class="w-100 m-l-r-auto min-w-100vh">
+        <header class="box">
             <div class="container ">
-                <div class="box w-100">
-                    <nav class="d-flex justify-content-space-between align-item-center">
-                        <div>
+                <div class=" w-100">
+                    <nav>
+                        <div class="d-flex align-items-center justify-content-space-between">
                             <a href="">
                                 <ul>
                                     <li><img class="eventfree" src="./assets/image/eventfree.png" alt="123" width="100%"
@@ -22,38 +22,38 @@
                                     </li>
                                 </ul>
                             </a>
-                        </div>
-                        <div class="d-flex align-item-center">
-                            <ul class="mt-41">
-                                <li><a href="" class="home text-white"> HOME </a></li>
+                            <label for="menuIcon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                            <input type="checkbox" id="menuIcon" hidden>
+                            <ul class="d-flex align-items-center  mb-0 mobile-view ">
+                                <li class="mt-41 ms-md-3"><a href="" class=" home text-success">HOME</a></li>
+                                <li class="mt-41 ms-md-3"><a href="" class=" events text-success">EVENTS</a></li>
+                                <li class="mt-41 ms-md-3"><a href="" class=" feed text-success">FEED</a></li>
+                                <li class="mt-41 ms-md-3"><a href="" class="name  text-success">USER NAME</a></li>
+                                <button class="butten mt-41 c-p">logout</button>
                             </ul>
-                            <ul class="mt-41">
-                                <li><a href="" class="events text-white"> EVENTS </a></li>
-                            </ul>
-                            <ul class="mt-41">
-                                <li><a href="" class="feed text-white"> FEED </a></li>
-                            </ul>
-                            <ul class="mt-41">
-                                <li><a href="" class="name text-white"> USER NAME</a></li>
-                            </ul>
-                            <button class="butten c-p">logout</button>
-                        </div>
+                        </div>  
                     </nav>
                 </div>
             </div>
         </header>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-4">
+            <div class="row justify-content-space-between">
+                <div class=" col-lg-4 col-12">
                     <img class="top w-100" src="./assets/image/top image.png" alt="top">
                 </div>
-                <div class="col-8">
+                <div class=" col-lg-8 col-12 mw-100 ">
                     <p class="first1 pl-62">Home > Username</p>
-                    <div class="d-flex">
+                    <div class="d-flex align-items-centre justify-content-space-between ">
                         <p class="first2">Jhone Doe</p>
-                        <button class="btn">Unshow Journey of Feed</button>
-                        <button class="btn2">Show Journey of Feed</button>
+                        <div class="">
+                        <button class="btn3 ">Unshow Journey of Feed</button>
+                        <button class="btn4 ">Show Journey of Feed</button>
+                        </div>
                     </div>
                     <p class="p1 pt-29">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.
                         Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus
@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 pt-156">
+                <div class="col-12 col-lg-6 pt-156">
                     <img src="./assets/image/double.png" alt="double">
                     <p class="p3">Semper faucibus suscipit ultricies eleifend semper sit tellus gravida pretium. Cras
                         cursus ut semper eleifend tortor lectus tristique turpis. Laoreet amet ultrices est lectus
@@ -96,9 +96,9 @@
                     </p>
 
                 </div>
-                <div class="col-6 pb-95 pt-156">
+                <div class="col-12 col-lg-6 pb-95 pt-156">
                     <div class="pos-relative">
-                        <img src="/assets/image/Rectangle 92.png" alt="rectangle">
+                        <img class="w-100" src="/assets/image/Rectangle 92.png" alt="rectangle">
                         <div class="pos-absolute">
                             <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -134,13 +134,13 @@
                     <img src="./assets/image/third.png" alt="third" class="w-100">
                 </div>
                 <div class="griditem4 item">
-                    <img src="./assets/image/forth.png" alt="forth" class="w-100">
+                    <img src="./assets/image/forth.png" alt="forth" class="w-100 h-100">
                 </div>
                 <div class="griditem5 item">
                     <img src="./assets/image/fivth.png" alt="fivth" class="w-100">
                 </div>
                 <div class="griditem6 item">
-                    <img src="./assets/image/sixth.png" alt="sixth" class="w-100">
+                    <img src="./assets/image/sixth.png" alt="sixth" class="">
                 </div>
             </div>
             <div class="pos-relative">
@@ -157,108 +157,128 @@
                 hendrerit quis ut fringilla. Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam
                 cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
                 aliquet.</p>
-            <div class="border d-flex mb-47">
+            <div class="border d-flex mb-47 justify-content-space-between">
                 <img class="imge" src="./assets/image/last 1.png" alt="last1">
-                <input class="comment" type="text" placeholder="Add a new comment">
+                <input class="comment" type="text" placeholder="Add a new comment" class="minw-100">
                 <button class="batn">Post Comment</button>
             </div>
         </div>
-        <div class="container">
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last2.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp1">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
-                        gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit
-                        vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
+        <div class="container align-item-center justify-content-center ">
+            <div class="justify-content-center ">
+                <div class="d-flex">
+                    <img class="h1" src="./assets/image/last2.png" alt=" last2">
+                    <div class="box1 pl-30 justify-content-center">
+                        <p class="username">Username</p>
+                        <p class="lastp1">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                            gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                            Hendrerit
+                            vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
+                    </div>
+                </div>
+                <div class="d-flex  c-p pt-8 pl-115 pb-24 ">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
                 </div>
             </div>
-            <div class="d-flex  c-p pt-8 pl-115 pb-24">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
-            </div>
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last3.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp2">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.</p>
+            <div class="justify-content-center ">
+                <div class="d-flex">
+                    <img class="h1" src="./assets/image/last3.png" alt=" last2">
+                    <div class="box1 pl-30 w-100">
+                        <p class="username">Username</p>
+                        <p class="lastp2">Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla.</p>
+                    </div>
+                </div>
+                <div class="d-flex pt-8 pl-115 pb-24 ">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
                 </div>
             </div>
-            <div class="d-flex pt-8 pl-115 pb-24">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
-            </div>
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last4.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem
-                        faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
-                        aliquet.</p>
+            <div class="justify-content-center">
+                <div class="d-flex">
+                    <img class="h1" src="./assets/image/last4.png" alt=" last2">
+                    <div class="box1 pl-30">
+                        <p class="username">Username</p>
+                        <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus
+                            sem
+                            faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
+                            aliquet.</p>
+                    </div>
+                </div>
+                <div class="d-flex pt-8 pl-115 pb-24 ">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
                 </div>
             </div>
-            <div class="d-flex pt-8 pl-115 pb-24">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
-            </div>
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last5.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem
-                        faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
-                        aliquet.</p>
+            <div class=" justify-content-center">
+                <div class="d-flex">
+                    <img class="h1" src="./assets/image/last5.png" alt=" last2">
+                    <div class="box1 pl-30">
+                        <p class="username">Username</p>
+                        <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus
+                            sem
+                            faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
+                            aliquet.</p>
+                    </div>
+                </div>
+                <div class="d-flex pt-8 pl-115 pb-24 ">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
                 </div>
             </div>
-            <div class="d-flex pt-8 pl-115 pb-24">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
-            </div>
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last6.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem
-                        faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
-                        aliquet.</p>
+            <div class="justify-content-center">
+                <div class="d-flex ">
+                    <img class="h1" src="./assets/image/last6.png" alt=" last2">
+                    <div class="box1 pl-30">
+                        <p class="username">Username</p>
+                        <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus
+                            sem
+                            faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
+                            aliquet.</p>
+                    </div>
+                </div>
+                <div class="d-flex pt-8 pl-115 pb-24">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
                 </div>
             </div>
-            <div class="d-flex pt-8 pl-115 pb-24">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
-            </div>
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last7.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem
-                        faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
-                        aliquet.</p>
+            <div class="justify-content-center">
+                <div class="d-flex ">
+                    <img class="h1" src="./assets/image/last7.png" alt=" last2">
+                    <div class="box1 pl-30">
+                        <p class="username">Username</p>
+                        <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus
+                            sem
+                            faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
+                            aliquet.</p>
+                    </div>
+                </div>
+                <div class="d-flex pt-8 pl-115 pb-24 ">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
                 </div>
             </div>
-            <div class="d-flex pt-8 pl-115 pb-24">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
-            </div>
-            <div class="d-flex">
-                <img class="h1" src="./assets/image/last8.png" alt=" last2">
-                <div class="box1 pl-30">
-                    <p class="username">Username</p>
-                    <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem
-                        faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
-                        aliquet.</p>
+            <div class="justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <img class="h1" src="./assets/image/last8.png" alt=" last2">
+                    <div class="box1 pl-30">
+                        <p class="username">Username</p>
+                        <p class="lastp1">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus
+                            sem
+                            faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget
+                            aliquet.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex pt-8 pl-115 pb-118">
-                <img src="./assets/image/delete.png" alt="delete">
-                <p class="remove">Remove Comment</p>
+                <div class="d-flex pt-8 pl-115 pb-118 ">
+                    <img src="./assets/image/delete.png" alt="delete">
+                    <p class="remove">Remove Comment</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer class=" bg-black">
+    <footer class=" bg-black m-l-r-auto min-w-100vh">
         <div class="container">
-            <div class="row">
-                <div class="col-5">
+            <div class="row pt-126 pb-118">
+                <div class="col-12 col-md-6">
                     <img class="event" src="./assets/image/eventfree.png" alt="eventfree">
                     <p class="lorem4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in
                         dictum suscipit. Suspendisse maximus ipsum sem. c </p>
@@ -270,24 +290,24 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-6 pt-20">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-12 col-sm-4">
                             <ul class="text-whitee">
-                                <li class="about pt-126">
+                                <li class="about pt-20">
                                     SERVICES
                                 </li>
                                 <a href="">
-                                <li class="news text-whitee">About</li>
-                                <li class="news text-whitee">News</li>
-                                <li class="news text-whitee">ullamcorper</li>
-                                <li class="news text-whitee">Contact</li>
-                            </a>
+                                    <li class="news text-whitee">About</li>
+                                    <li class="news text-whitee">News</li>
+                                    <li class="news text-whitee">ullamcorper</li>
+                                    <li class="news text-whitee">Contact</li>
+                                </a>
                             </ul>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-sm-4">
                             <ul class="text-whitee">
-                                <li class="about pt-126">
+                                <li class="about pt-20">
                                     EVENTS
                                 </li>
                                 <a href="">
@@ -298,34 +318,63 @@
                                 </a>
                             </ul>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-sm-4">
                             <ul class="text-whitee">
-                                <li class="about pt-126">
+                                <li class="about pt-20">
                                     GALLERY
                                 </li>
                                 <div class="row">
-                                    <div class="col-4">
-                                        <img class="pt-20" src="./assets/image/bottom1.png" alt="bottom">
+                                    <div class="row pt-10 margin-24">
+
+                                        <ul class="col-4">
+                                            <li><a href=""> <img src="./assets/image/bottom1.png" alt="jjj" class="w-100">
+                                                </a></li>
+                                        </ul>
+        
+                                        <ul class="col-4">
+                                            <li> <a href=""><img src="./assets/image/bottom2.png" alt="jjj" class="w-100">
+                                                </a></li>
+                                        </ul>
+        
+        
+                                        <ul class="col-4">
+                                            <li><a href=""> <img src="./assets/image/bottom3.png" alt="jjj" class="w-100">
+                                                </a></li>
+                                        </ul>
+        
+        
                                     </div>
-                                    <div class="col-4">
-                                        <img class="pt-20" src="./assets/image/bottom2.png" alt="bottom">
+        
+                                    <div class="row pt-10">
+        
+                                        <ul class="col-4">
+                                            <li> <a href=""> <img src="./assets/image/bottom4.png" alt="jjj" class="w-100">
+                                                </a></li>
+                                        </ul>
+        
+        
+                                        <ul class="col-4">
+                                            <li> <a href=""><img src="./assets/image/bottom5.png" alt="jjj" class="w-100">
+                                                </a></li>
+        
+                                        </ul>
+        
+        
+        
+                                        <div class="col-4 text-align-center">
+                                            <a href="" class="backgound-blue p-showmore"> Show <br> More</a>
+        
+        
+                                        </div>
                                     </div>
-                                    <div class="col-4">
-                                        <img  class="pt-20" src="./assets/image/bottom3.png" alt="bottom">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="pt-20" src="./assets/image/bottom4.png" alt="bottom">
-                                    </div>
-                                    <div class="col-4">
-                                        <img class="pt-20" src="./assets/image/bottom5.png" alt="bottom">
-                                    </div>
-                                    <button class="btn1 mt-20">Show More</button>
                                 </div>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        <div class="text-align-center"> <p class=" p7">© Credits of companyName belong to companyName.</p>
+        </div>
         </div>
     </footer>
 </body>
